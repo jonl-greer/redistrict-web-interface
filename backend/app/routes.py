@@ -10,6 +10,6 @@ router = APIRouter()
 def run_demo():
   election = gpd.read_file("zip://../data/pa_vest_20.zip")
   precincts = gpd.read_file("zip://../data/pa_vtd_2020_bound.zip")
-  result = validate_data(precints,elections)
+  result = validate_data(precints,election)
   return result.to_json()
 
