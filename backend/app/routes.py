@@ -11,6 +11,6 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 def run_demo():
   election = gpd.read_file("pa_vest_20.zip")
   precincts = gpd.read_file("pa_vtd_2020_bound.zip")
-  result = validate_data(precints,election)
+  result = validate_data(precincts,election)
   return result.to_json()
 
