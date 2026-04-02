@@ -14,3 +14,6 @@ app.add_middleware(
 
 app.include_router(router)
   
+@app.get("/")
+def read_root():
+    return {"message": "Server is running"}
