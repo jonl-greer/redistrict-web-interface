@@ -18,6 +18,6 @@ def validate_data(precints,election):
     else:
       statuses.append("good")
 
-  precints["matched_name"] = matches
-  precints["status"] = statuses 
+  precincts["matched_name"] = matches
+  precincts["status"] = statuses 
   return precincts
