@@ -1,6 +1,6 @@
 from rapidfuzz import process
 
-def validate_data(precints,election):
+def validate_data(precincts,election):
   precinct_names = precincts.iloc[:,0].astype(str).tolist()
   election_names = election.iloc[:,0].astype(str).tolist()
 
