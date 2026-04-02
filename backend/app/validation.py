@@ -7,7 +7,7 @@ def validate_data(precints,election):
   statuses = []
   matches = []
 
-  for name in precint_names:
+  for name in precinct_names:
     match,score,_= process.extractOne(name, election_names)
     matches.append(match)
 
