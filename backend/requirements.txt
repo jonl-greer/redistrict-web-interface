@@ -1,1 +1,8 @@
+fastapi
+uvicorn
+pandas
+geopandas
+shapely
+rapidfuzz
+python-multipart
 
