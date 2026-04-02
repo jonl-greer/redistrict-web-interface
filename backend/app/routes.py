@@ -4,7 +4,7 @@ import pandas as pd
 from .validation import validate_data
 
 router = APIRouter()
-
+DATA_DIR = Path(__file__).parent.parent / "data"
 @router.get("/demo")
 
 def run_demo():
