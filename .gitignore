@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+backend/data/*.shp
+backend/data/*.dbf
+backend/data/*.shx
+backend/data/*.zip
