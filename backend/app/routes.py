@@ -5,7 +5,7 @@ from .validation import validate_data
 
 router = APIRouter()
 
-@router.get("\demo")
+@router.get("/demo")
 
 def run_demo():
   election = gdp.read_file("/data/pa_vest_20.zip")
