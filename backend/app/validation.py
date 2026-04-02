@@ -9,7 +9,7 @@ def validate_data(precints,election):
 
   for name in precint_names:
     match,score,_= process.extractOne(name, election_names)
-    matches.append(math)
+    matches.append(match)
 
     if score < 70:
       statuses.append("bad")
